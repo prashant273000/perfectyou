@@ -14,7 +14,7 @@ const Confidence = () => {
 
     try {
       setLoading(true);
-      const response = await axios.post("http://127.0.0.1:5000/confidence", {
+      const response = await axios.post("https://perfectyou-backend.onrender.com/confidence", {
         problem: problem
       });
       setResult(response.data);

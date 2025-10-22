@@ -29,7 +29,7 @@ const Spectacles = () => {
 
     try {
       setLoading(true);
-      const response = await axios.post("http://127.0.0.1:5000/spectacles", formData, {
+      const response = await axios.post("https://perfectyou-backend.onrender.com/spectacles", formData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
       setResult(response.data);

@@ -14,7 +14,7 @@ const Disease = () => {
 
     try {
       setLoading(true);
-      const response = await axios.post("http://127.0.0.1:5000/disease", {
+      const response = await axios.post("https://perfectyou-backend.onrender.com/disease", {
         disease: disease
       });
       setResult(response.data);

@@ -10,7 +10,7 @@ const Fitness = () => {
   const handleSubmit = async () => {
     try {
       setLoading(true);
-      const response = await axios.post("http://127.0.0.1:5000/fitness", {
+      const response = await axios.post("https://perfectyou-backend.onrender.com/fitness", {
         height: height,
         weight: weight
       });

@@ -14,7 +14,7 @@ const Clothing = () => {
 
     try {
       setLoading(true);
-      const response = await axios.post("http://127.0.0.1:5000/clothing", {
+      const response = await axios.post("https://perfectyou-backend.onrender.com/clothing", {
         fat_distribution: fatDistribution
       });
       setResult(response.data);

@@ -27,7 +27,7 @@ const Hairstyle = () => {
     formData.append("photo", file);
 
     try {
-      const res = await fetch("http://127.0.0.1:5000/hairstyle", {
+      const res = await fetch("https://perfectyou-backend.onrender.com/hairstyle", {
         method: "POST",
         body: formData,
       });

@@ -14,7 +14,7 @@ const Hair = () => {
 
     try {
       setLoading(true);
-      const response = await axios.post("http://127.0.0.1:5000/hair", { hair_type: hairType });
+      const response = await axios.post("https://perfectyou-backend.onrender.com/hair", { hair_type: hairType });
       setResult(response.data);
     } catch (error) {
       console.error("Error fetching hair advice:", error);
