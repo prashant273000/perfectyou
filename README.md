@@ -1,3 +1,5 @@
+#PerfectYou-AI
+
 PerfectYou AI is a web application that analyzes user photos and personal information to provide personalized recommendations for hairstyles, skin care, fitness, diet, clothing, and confidence-building tips using AI.
 
 ## Features
